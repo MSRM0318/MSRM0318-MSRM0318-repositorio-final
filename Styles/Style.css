@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Tilt Warp', cursive;
+}
+
+header {
+    background-image: url("/Image/fondo\ 2.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+    align-items: center;   
+}
+body {
+    background-image: url("/Image/fondo\ 2.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+    align-items: center;   
+}
+
+.unrealme{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+ font-weight: 700;
+ font-size: 25px;
+ color: blue;
+}
+
+.unrealme .narbar ul li {
+    position: relative;
+    float: left;
+}
+
+.unrealme .narbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+   display: block;
+}
+
+.unrealme .narbar ul li a:hover {
+color: aqua;
+}
+
+.unrealme {
+    display: none;
+}
+
+.unrealme-logo {
+    width: 25px;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-content {
+display: flex;
+}
+
+.content{
+    padding: 150px 150px 0px 0px;
+}
+
+.content h1{
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.content p{
+    margin-top: 25px;
+    color: rgb(0, 255, 255);
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.btn-1:hover{
+    color: aqua;
+    }
+    
+.btn-2:hover{
+     color: aqua;
+     }
+    
+.btn-1{
+    display: inline-block;
+    background-color: blueviolet;
+    border: 1px solid blue;
+    margin: 35px 10px 0px 0px; 
+    padding: 15px 25px;
+    color: whitesmoke;
+    border-radius: 25px;
+}
+
+.btn-2{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    margin: 35px 10px 0px 0px; 
+    padding: 15px 25px;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+    .mecanismos{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    margin: 35px 10px 0px 0px; 
+    padding: 15px 25px;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+    
+
+
+
+
+
+
+
+
